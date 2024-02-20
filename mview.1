@@ -1,0 +1,23 @@
+.TH MVIEW 1 "2024-02-07"
+.SH NAME
+mview \- view Markdown files in Firefox
+.SH SYNOPSIS
+mview <markdown_file>
+.SH DESCRIPTION
+mview is a Bash script that takes a Markdown file as an argument, converts it to HTML using a sed command for speed, opens the HTML file in Firefox, and waits for Firefox to close. Once Firefox is closed, the script deletes the temporary HTML file.
+.SH OPTIONS
+<markdown_file>
+The Markdown file to be converted and viewed in Firefox.
+.SH EXAMPLES
+To view a Markdown file named "example.md":
+.nf
+mview example.md
+.fi
+.SH AUTHOR
+Written by Amosnimos.
+.SH REPORTING BUGS
+Please report bugs to <your_email@example.com>.
+.SH COPYRIGHT
+Copyright © 2024 Amosnimos.
+.SH SEE ALSO
+pandoc(1)
