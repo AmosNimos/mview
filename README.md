@@ -1,4 +1,6 @@
-# MView.sh
+# MView.sh 👁️‍🗨️
+
+<img src="https://correcteyes.com/wp-content/uploads/2016/06/bannereyeexam.png" width="100%" height="auto" style="border-radius: 30px; object-fit: cover;">
 
 MView.sh is a Bash script that enables quick viewing of Markdown files in Firefox without the need for a slower conversion tool like pandoc.
 
